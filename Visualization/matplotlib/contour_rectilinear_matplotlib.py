@@ -13,7 +13,7 @@ from   netCDF4 import Dataset as open_ncfile
 import numpy as np
 
 #-- open netcdf file
-nc = open_ncfile('$HOME/NCL/general/data/new_data/rectilinear_grid_2D.nc')
+nc = open_ncfile('/Users/k204045/NCL/general/data/new_data/rectilinear_grid_2D.nc')
 
 #-- read variable
 var = nc.variables['tsurf'][0,:,:]
