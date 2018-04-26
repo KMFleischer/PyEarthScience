@@ -1,6 +1,6 @@
 # psyplot
 
-This package has been developed by **Philipp Sommer** (Chilipp).
+This package has been developed by **Philipp Sommer** ([Chilipp](https://github.com/Chilipp/)).
 
 **psyplot** is an open source python project that mainly combines the plotting utilities
 of matplotlib and the data management of the xarray package. The main purpose is to
@@ -17,7 +17,7 @@ The package is very new and there are many features that will be included in the
 So we are very pleased for feedback! Please simply raise an issue on GitHub (see also 
 How to contribute in the docs).
 
-You can see the full documentation on readthedocs.org.
+You can see the full documentation and examples on [readthedocs.org](http://psyplot.readthedocs.io/en/latest/).
 
 See also:
 
