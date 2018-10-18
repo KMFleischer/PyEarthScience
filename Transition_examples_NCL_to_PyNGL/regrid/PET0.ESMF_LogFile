@@ -1,0 +1,4 @@
+20181015 133857.683 ERROR            PET0 ESMF_Regrid.F90:360 ESMF_RegridStore Invalid argument  - Internal subroutine call returned Error
+20181015 133857.683 ERROR            PET0 ESMF_FieldRegrid.F90:1292 ESMF_FieldRegridStoreNX Invalid argument  - Internal subroutine call returned Error
+20181015 133857.683 ERROR            PET0 ESMF_Field_C.F90:1168 f_esmf_regridstorefile Invalid argument  - Internal subroutine call returned Error
+20181015 133857.686 INFO             PET0 Finalizing ESMF
