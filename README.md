@@ -8,7 +8,7 @@ Repository containing Python I/O, analysis and visualization scripts for Earth s
 	- NCL notebooks
     - PyNGL
     - matplotlib
-    - psplot
+    - psyplot
 - I/O
 - Analysis
 
