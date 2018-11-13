@@ -19,7 +19,7 @@ How to contribute in the docs).
 
 You can see the full documentation and examples on [readthedocs.org](http://psyplot.readthedocs.io/en/latest/).
 
-The examples cover the visualization of a [rectilinear](https://psyplot.readthedocs.io/projects/psy-maps/en/latest/examples/example_mapplotters.html#gallery-examples-example-mapplotters-ipynb), [circumpolar](https://psyplot.readthedocs.io/projects/psy-maps/en/latest/examples/example_circumpolar.html#gallery-examples-example-circumpolar-ipynb) and [ICON](https://psyplot.readthedocs.io/projects/psy-maps/en/latest/examples/example_icon.html#gallery-examples-example-icon-ipynb) data, both for scalar and for vector fiels on a map.
+The examples cover the visualization of a [rectilinear](https://psyplot.readthedocs.io/projects/psy-maps/en/latest/examples/example_mapplotters.html#gallery-examples-example-mapplotters-ipynb), [circumpolar](https://psyplot.readthedocs.io/projects/psy-maps/en/latest/examples/example_circumpolar.html#gallery-examples-example-circumpolar-ipynb) and [ICON](https://psyplot.readthedocs.io/projects/psy-maps/en/latest/examples/example_ugrid.html#gallery-examples-example-ugrid-ipynb) data, both for scalar and for vector fiels on a map.
 
 
 
