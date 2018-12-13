@@ -7,6 +7,7 @@ PyNGL visualization scripts
 - Vector plots
 - Unstructured data (ICON)
 - Jupyter notebooks
+- example data
 
 ### iPython notebooks
 PyEarthScience_contour_PyNGL.ipynb
@@ -42,3 +43,5 @@ vectors_simple_colored_PyNGL.py
 
 xy-plot_simple_PyNGL.py
 
+### Example data
+country_gesamt.txt
