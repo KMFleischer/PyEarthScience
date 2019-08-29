@@ -7,6 +7,7 @@ PyNGL visualization scripts
 - Vector plots
 - Unstructured data (ICON)
 - Jupyter notebooks
+- xarray examples
 - example data
 
 ### iPython notebooks
@@ -42,6 +43,10 @@ vectors_simple_PyNGL.py
 vectors_simple_colored_PyNGL.py
 
 xy-plot_simple_PyNGL.py
+
+contour_plot_rectilinear_xarray.py
+
+xy_plot_timeseries_xarray.py
 
 ### Example data
 country_gesamt.txt
