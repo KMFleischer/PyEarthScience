@@ -8,6 +8,7 @@ PyNGL visualization scripts
 - Unstructured data (ICON)
 - Jupyter notebooks
 - xarray examples
+- missing NCL examples
 - example data
 
 ### iPython notebooks
@@ -47,6 +48,16 @@ xy-plot_simple_PyNGL.py
 contour_plot_rectilinear_xarray.py
 
 xy_plot_timeseries_xarray.py
+
+Hovmoeller_plot_hov_5.py
+
+Station_locations_scatter_3.py
+
+Lambert_Conformal_mptick_10.py
+
+map_tickmark_minutes_mptick_3.py
+
+Hovmoeller_plot_hov_1.py
 
 ### Example data
 country_gesamt.txt
