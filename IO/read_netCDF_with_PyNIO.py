@@ -90,14 +90,14 @@ def main():
     
     #-- print the size and shape of the variable
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> var.size           ',var.shape[0] * var.shape[1])
     print('--> var.shape          ',var.shape)
     
     #-- same as
     #print('--> var.size           ',f.dimensions['lat'] * f.dimensions['lon'])
     #print('--> var.shape          ',var.shape)
-    print('')
+    print()
     
     #-- read variable latitude and longitude arrays
     lat = file.variables['lat'][:]
@@ -105,7 +105,7 @@ def main():
     
     #-- print the minimum and maximum of lat and lon
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> lat min             ', lat.min().item())
     print('--> lat max             ', lat.max())
     print('--> lon min             ', lon.min())
@@ -116,7 +116,7 @@ def main():
     #print('--> lat max             ', lat.max().item())
     #print('--> lon min             ', lon.min().item())
     #print('--> lon max             ', lon.max().item())
-    print('')
+    print()
     
 
     #-- retrieve the name of the coordinates lat/lon variables and the values of 
@@ -129,101 +129,101 @@ def main():
     nrlon    = shapelon
     
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> dimslat: ',dimslat, '  dimslon: ',dimslon,'  nrlat: ',nrlat,'  nrlon: ',nrlon)
-    print('')
+    print()
 
     #-- print variable information
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> var information')
-    print('')
+    print()
     print(var)
-    print('')
+    print()
     
     ##-- print the variable attributes
     #print('------------------------------------------------------')
-    #print('')
+    #print()
     #print('--> attributes:       ',var.key())
-    #print('')
+    #print()
     
     #-- print the variable values
     #print('------------------------------------------------------')
-    #print('')
+    #print()
     #print('--> values            ')
-    #print('')
+    #print()
     #print(var.values)
-    #print('')
+    #print()
     
     #-- print the type of the variable (DataArray)
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> type(var)         ',type(var))
-    print('')
+    print()
     
     #-- print the type of the variable values (numpy.ndarray)
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> type(var.values)  ',type(var[:,:]))
-    print('')
+    print()
     
     #-- select variable t from dataset for first timestep
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> dataset variable t (time=0, lev=6)')
-    print('')
+    print()
     print(file.variables['t'][0,6,:,:])
-    print('')
+    print()
     
     #-- select variable t from dataset, lat index 1 and lon index 2
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> dataset variable t select data which is closest to lat=1 and lon=2')
-    print('')
+    print()
     print(file.variables['t'][:,:,1,2])
-    print('')
+    print()
     
     #-- select variable t, timestep 2001-01-01
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> time(0) = "2001-01-01"')
-    print('')
+    print()
     print(file.variables['t'][0,:,:,:])
-    print('')
+    print()
     
     #-- select a sub-region (slice) - Take attention to the strange notation of the selection!
     #-- The leading i tells PyNIO to use the index instead of coordinate values, e.g. time|i0
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> select sub-region')
-    print('')
+    print()
     print(file.variables['t']['time|i0 lev|: lat|20:0 lon|-25:0'])
-    print('')
+    print()
     
     #-- print median values of variable t of dataset, one value for each level (axis=lat,lon)
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> variable median')
-    print('')
+    print()
     print(np.median(file.variables['t'],axis=(2,3)))
-    print('')
+    print()
     
     #-- compute the means of the variable t of the dataset, one value for each level (axis=lat,lon)
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> means')
-    print('')
+    print()
     means = np.mean(file.variables['t'], axis=(2,3))
     print(means)
-    print('')
+    print()
     
     #-- compute the mean of the variable t which are greater than 273.15 K
     print('------------------------------------------------------')
-    print('')
+    print()
     print('--> only means greater than 273.15 K')
-    print('')
+    print()
     print(means[np.where(means > 273.15)])
-    print('')
+    print()
 
 #-------------------------------------------------------------
 #-- run main
