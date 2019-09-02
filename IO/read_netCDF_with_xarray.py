@@ -155,7 +155,7 @@ print('------------------------------------------------------')
 print('')
 print('--> select sub-region')
 print('')
-print(ds.t.sel(lat=slice(0, 0), lon=slice(-25, 0), time='2001-01-01'))
+print(ds.t.sel(lat=slice(20, 0), lon=slice(-25, 0), time='2001-01-01'))
 print('')
 
 #-- select slice nearest neighbor with tolerance
