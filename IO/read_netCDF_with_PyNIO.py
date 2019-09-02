@@ -28,12 +28,6 @@ import numpy as np
 import Ngl, Nio
 
 #-----------------------------------------------------------------------
-#-- Function: namestr() - get the name of a variable as a string
-#-----------------------------------------------------------------------
-def namestr(obj, namespace):
-    return [name for name in namespace if namespace[name] is obj]
-
-#-----------------------------------------------------------------------
 #-- Function: getVariableNames() - return the variable names (without coordinates)
 #-----------------------------------------------------------------------
 def getVariableNames(file):
@@ -43,7 +37,6 @@ def getVariableNames(file):
     vnames = [n for n in names if n not in coords]
 
     return(vnames, coords)
-
 
 #-----------------------------------------------------------------------
 #-- Function:   main
