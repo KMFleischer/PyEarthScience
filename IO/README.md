@@ -14,7 +14,7 @@ _**Work in progress**_
 
 #### xarray
 
- + read_netCDF_with_xarray.py - 
+ + read_netCDF_with_xarray.py - open a netCDF file and demonstrate how to work with an xarray dataset
 
 
 
