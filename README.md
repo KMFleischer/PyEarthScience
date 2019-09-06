@@ -1,5 +1,19 @@
 # PyEarthScience
-Repository containing Python I/O, analysis and visualization scripts for Earth scientists.
+
+The **PyEarthScience** repository created by **DKRZ** (German Climate Computing Centre) 
+provides various Python modules, scripts and iPython notebooks, in particular for 
+**Earth System data processing and visualization used in climate science**. 
+
+For this, different Python modules are used, like **PyNIO, PyNGL, xarray, matplotlib, cartopy**, 
+and **psyplot**.
+
+Those who have decided to write their programs for the visualization of scientific data 
+in Python, will encounter problems and questions such as - which modules are there, 
+which ones are needed, which are well documented and, above all, which are still maintained 
+today.
+
+We added the **NCL Transition Examples - NCL to Python** from DKRZ to this repository too 
+because most of our users are familiar with NCL but need to pivot to Python.
 
 ## Content
 
@@ -30,5 +44,10 @@ Repository containing Python I/O, analysis and visualization scripts for Earth s
     - xy
 
 - I/O
+	- read GRIB files with PyNIO
+	- read GRIB files with xarray/cfgrib
+	- read netCDF files with PyNio
+	- read netCDF files with xarray
+	
 - Analysis
 
