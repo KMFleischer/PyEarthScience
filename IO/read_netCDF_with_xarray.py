@@ -20,7 +20,10 @@
 
   - xarray
   - netCDF
+
+  2019-04-14  kmf
 '''
+
 import os
 import numpy as np
 import xarray as xr
@@ -30,7 +33,7 @@ import xarray as xr
 home  = os.environ.get('HOME')
 fname = os.path.join(home,"local/miniconda2/envs/pyngl_py3/lib/python3.7/site-packages/ngl/ncarg/data/nug/rectilinear_grid_3D.nc") #-- data file name
 
-#-- open file and read variables
+#-- open file
 ds = xr.open_dataset(fname)
 
 print('------------------------------------------------------')
