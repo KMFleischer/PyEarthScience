@@ -1,0 +1,7 @@
+## notebook checkpoints files directory
+.ipynb_checkpoints
+
+## compiled python code
+__pycache__/
+*.pyc
+
