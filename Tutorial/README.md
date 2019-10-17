@@ -41,7 +41,6 @@ users to find an easier way into the Python world.
 
 - 03_xarray and PyNIO - Notebook about file handling
     - Open dataset
-    - Read from ASCII file
     - Read from netCDF file
     - Read from GRIB file
     
