@@ -38,10 +38,6 @@ users to find an easier way into the Python world.
 	- Masking
 	- Some hints
     
-<br>
-
-**_Work in progress_**
-```
 
 - 03_xarray and PyNIO - Notebook about file handling
     - Open dataset
@@ -49,7 +45,11 @@ users to find an easier way into the Python world.
     - Read from netCDF file
     - Read from GRIB file
     
-    
+<br>
+
+**_Work in progress_**
+```
+ 
 - 04_PyNGL - Notebook about plotting with PyNGL
     - Basics
     - Maps
