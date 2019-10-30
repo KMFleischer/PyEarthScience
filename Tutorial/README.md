@@ -15,7 +15,7 @@ users to find an easier way into the Python world.
 
 ## Content
 
-- 01_Python_basics - Notebook about Python
+- 01\_Python\_basics - Notebook about Python
 	- Functions
     - Data types
     - Lists
@@ -25,7 +25,7 @@ users to find an easier way into the Python world.
     - Import Python modules
 
 
-- 02_NumPy - Notebook about numpy
+- 02\_NumPy\_basics_ - Notebook about numpy
     - Import numpy
 	- Numpy arrays
 	- Create and reshape arrays
@@ -39,25 +39,39 @@ users to find an easier way into the Python world.
 	- Some hints
     
 
-- 03_xarray and PyNIO - Notebook about file handling
+- 03\_Xarray\_PyNIO\_basics - Notebook about file handling
     - Read from netCDF file
     - Read from GRIB file
     
-<br>
+
+- 04\_PyNGL\_basics - Notebook about the basics of plotting with PyNGL
+    - Basics
+
+- 04a\_PyNGL\_xy.ipynb - Notebook about xy-plots
+	- create a simple xy- plot
+	- multiple variables in one xy-plot
+	- xy resources
+
+- 04b\_PyNGL\_maps.ipynb - Notebook about maps
+	- create a map
+	- use different projections
+	- map resources
+
+- 04c\_PyNGL\_contour\_on\_maps.ipynb - Notebook about contours on maps
+	- create a contour plot on a map
+	- zoom into the contour plot
+	- cn resources
 
 **_Work in progress_**
 ```
- 
-- 04_PyNGL - Notebook about plotting with PyNGL
-    - Basics
-    - Maps
-    - XY
+- 04*_PyNGL_*
+
     - Contours
-    - Overlays
-    - Slices
-    - Streamlines
     - Vectors
+    - Streamlines
+    - Slices
     - Panel
+    - Overlays
 
 - 05_xESMF_basics - Notebook about regridding with xESMF
 
