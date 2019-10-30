@@ -43,6 +43,15 @@ because most of our users are familiar with NCL but need to pivot to Python.
     - write_data
     - xy
 
+- Tutorial (notebooks)
+	- Python basics
+	- numpy basics
+	- xarray and PyNIO basics
+	- PyNGL basics
+		- xy-plots
+		- maps
+		- contours on maps
+	
 - I/O
 	- read GRIB files with PyNIO
 	- read GRIB files with xarray/cfgrib
