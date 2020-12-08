@@ -12,13 +12,15 @@ http://scitools.org.uk/cartopy/docs/latest/index.html#
 ## Content
 
  - Contour plots
+ 
+ - RotatedPole projection - rotated curvilinear grids
 
  - Stamen / Google tiles plots
 
 
-### iPython notebooks
+### jupyter notebooks
 
-- PyEarthScience_contour_rectilinear_matplotlib_cartopy.ipynb
+ - PyEarthScience_contour_rectilinear_matplotlib_cartopy.ipynb
 
 
 ### Scripts
@@ -27,5 +29,10 @@ http://scitools.org.uk/cartopy/docs/latest/index.html#
 
  - Hamburg_Stamen_terrain_background_plus_toner_hybrid.py
    + plot_Hamburg_stamen.png
- 
+
+
+### Data
+
+ - rotated curvilinear grid example: CORDEX EUR-11
+   + data/rotated_curvilinear_data.nc
  
