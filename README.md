@@ -58,5 +58,8 @@ because most of our users are familiar with NCL but need to pivot to Python.
 	- read netCDF files with PyNio
 	- read netCDF files with xarray
 	
-- Analysis
-
+- Data analysis
+    - Introduction to python-cdo
+    - convert CSV file to netCDF
+    - convert ASCII file to netCDF
+    
