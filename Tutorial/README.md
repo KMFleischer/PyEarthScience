@@ -43,7 +43,13 @@ users to find an easier way into the Python world.
     - Read from netCDF file
     - Read from GRIB file
     
-
+- 03a\_xarray\_introduction - Notebook about xarray
+	- DataArray
+	- Dataset
+    - Read from netCDF file
+    - Read from GRIB file
+    
+    
 - 04\_PyNGL\_basics - Notebook about the basics of plotting with PyNGL
     - Basics
 
@@ -64,7 +70,16 @@ users to find an easier way into the Python world.
 
 **_Work in progress_**
 ```
-- 04*_PyNGL_*
+- 04*_cartopy_*
+
+    - Projections
+    - Contours
+    - Vectors
+    - Slices
+    - Curvilinear grids
+    - Rotated curvilinear grids
+    
+- 04*_PyNGL_*  ???
 
     - Contours
     - Vectors
@@ -77,6 +92,8 @@ users to find an easier way into the Python world.
 
 
 - 06_Shapefile_basics - Notebook about shapefiles
+
+- 07_Conversions - CSV to netCDF
 
 ```
 	
