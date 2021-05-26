@@ -17,7 +17,8 @@ http://scitools.org.uk/cartopy/docs/latest/index.html#
 
  - Stamen / Google tiles plots
 
-
+ - ICON data visualization
+ 
 ### jupyter notebooks
 
  - PyEarthScience_contour_rectilinear_matplotlib_cartopy.ipynb
