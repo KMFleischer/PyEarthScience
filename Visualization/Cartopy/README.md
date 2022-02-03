@@ -23,6 +23,8 @@ http://scitools.org.uk/cartopy/docs/latest/index.html#
 
  - PyEarthScience_contour_rectilinear_matplotlib_cartopy.ipynb
 
+ - PyEarthScience_hovmoeller_diagram_with_map_above.ipynb
+ 
 
 ### Scripts
 
