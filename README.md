@@ -60,6 +60,8 @@ because most of our users are familiar with NCL but need to pivot to Python.
 	
 - Data analysis
     - Introduction to python-cdo
+    - CDO - climatology, anomalies, standardized anomalies
+    - compute NINOs with CDO
     - convert CSV file to netCDF
     - convert ASCII file to netCDF
     
