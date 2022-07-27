@@ -8,9 +8,10 @@ This is a collection of data analysis notebooks and python scripts.
 
 ### Notebooks
 
-| Short description           | Description                                          | Notebook |
+| Short description           | Description                                          | Notebook            |
 |-----------------------------|------------------------------------------------------|---------------------|
-| **CDO bindings**            | Introduction to python-cdo |data_analysis_with_CDO.ipynb |
+| **CDO bindings**            | Introduction to python-cdo                           | data_analysis_with_CDO.ipynb |
+| **CDO anomalies**           | Compute the climatology, anomalies, standardized anomalies | DKRZ_tutorial_climatology_anomalies_standardized_anomalies.ipynb |
 | **Convert CSV to netCDF**   | Convert CSV file with columns (lat,lon,value) to netCDF | convert_csv_to_netcdf.ipynb |
 | **Convert ASCII to netCDF** | Convert ASCII data (lines 720 x columns 360) to netCDF | convert_ascii_to_netcdf.ipynb |
 

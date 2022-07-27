@@ -27,6 +27,7 @@ http://scitools.org.uk/cartopy/docs/latest/index.html#
  
  - animation_of_geospatial_data_mpeg4.ipynb
  
+ - hovmoeller_diagram_with_map_above.ipynb
  
 ### Scripts
 
