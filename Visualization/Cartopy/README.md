@@ -29,6 +29,8 @@ http://scitools.org.uk/cartopy/docs/latest/index.html#
  
  - hovmoeller_diagram_with_map_above.ipynb
  
+ - DKRZ_tutorial_orog_different_resolutions.ipynb
+ 
 ### Scripts
 
  - contour_rectilinear_cartopy.py  -  contour plot (netCDF file, rectilinear grid, orthographic projection)
